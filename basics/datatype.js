@@ -39,6 +39,33 @@ let score1=Number(score)
 // true -> 1    
 // false -> 0
 let isLoggedIn=true;
-console.log(typeof isLoggedIn);
-let isLoggedIn1=Boolean(isLoggedIn)
-console.log(isLoggedIn1)
+// console.log(typeof isLoggedIn);
+// let isLoggedIn1=Boolean(isLoggedIn)
+// console.log(isLoggedIn1)
+
+
+
+
+
+
+// reference data types  (non-primitive data types) 
+// array ,object,function|
+
+// Array 
+const myarray=[1,2,3,4,5]
+console.log(myarray[0])
+
+const array1=new Array(1,2,3,4,5)
+console.log(array1[0])
+
+// Object
+const details={Name:"Rajendra",Age:22,Gender:"Male"}
+console.log(details.Name)
+console.log(details.Age)
+console.log(details.Gender)
+
+// function
+let fun=function add(a,b){
+    return  a+b
+}
+console.log(fun(2,3))

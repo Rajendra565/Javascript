@@ -16,3 +16,8 @@ let a=4
 let b="4"
 console.log(a==b)
 console.log(a===b)
+
+// arithmetic operator(+, -, *, /, %)give number value
+// assignment operator(=, +=, -=, *=, /=, %=) give value
+// comparison operator(==, ===, !=, !==, >, <, >=, <=) give boolean value
+// logical operator(&&, ||, !) give boolean value

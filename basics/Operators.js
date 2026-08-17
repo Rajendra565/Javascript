@@ -18,6 +18,16 @@ console.log(a==b)
 console.log(a===b)
 
 // arithmetic operator(+, -, *, /, %)give number value
+console.log(3+4)
+console.log(3-4)
+console.log(3*4)
+console.log(3/4)
+console.log(4%2)
 // assignment operator(=, +=, -=, *=, /=, %=) give value
 // comparison operator(==, ===, !=, !==, >, <, >=, <=) give boolean value
+console.log(4<3)
+console.log(4>3)
+console.log(4<3)
+console.log(4!=3)
 // logical operator(&&, ||, !) give boolean value
+console.log(1==3&&3<1)

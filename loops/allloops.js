@@ -16,3 +16,11 @@ do{
     j++
 }while(j<5)
     console.log(j)
+
+
+// foreach loop
+arr=[1,2,3,4,5]
+arr.forEach((i)=>{
+    return i
+})
+console.log(arr)

@@ -11,3 +11,8 @@ console.log(arr)
 // unshift() Method  The unshift() method is used to add the first element from an array.
 arr.unshift(10,20)
 console.log(arr)
+// map 
+arr.map((val,index)=>{
+   console.log(val)
+
+})

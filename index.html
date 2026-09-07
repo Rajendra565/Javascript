@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="cards">
+        <div class="card">
+            <h2>Rajendra</h2>
+            <p>Age: 25</p>
+            <p>City: Hyderabad</p>
+        </div>
+
+    </div>
+    
+
+
+
+
+    <script>
+        let students=[
+            {
+                name:"Rajendra",
+                age:25,
+                city:"Hyderabad"
+            },
+            {
+                name:"Ravi",
+                age:30,
+                city:"Bangalore"
+            }
+        ]
+
+        const cards=document.querySelector(".cards")
+        let res=""
+        students.map(val=>{
+            res+=`<div class="card">
+            <h2>Name: ${val.name}</h2>
+            <p>Age: ${val.age}</p>
+            <p>City: ${val.city}</p>
+        </div>`
+
+        })
+        cards.innerHTML=res
+    </script>
+</body>
+</html>
